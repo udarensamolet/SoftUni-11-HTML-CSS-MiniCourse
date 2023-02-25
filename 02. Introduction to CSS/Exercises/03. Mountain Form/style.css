@@ -1,0 +1,105 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    height: 415px;
+    margin: 5rem auto;
+    border-radius: 5px;
+}
+
+#first{
+    background: linear-gradient(rgba(119, 162, 241, 0.6), rgba(56, 8, 42, 0.6)), url(img/peak.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+
+#first h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 1.3rem 0;
+}
+
+#first p:nth-child(2) {
+    text-align: center;
+    font-style: italic;
+    padding-top: 17rem;
+}
+
+
+#first p:nth-child(3) {
+    text-align: center;
+    color: #D3D3D3;
+    padding-top: 0.5rem;
+}
+
+#second {
+    width: 50%;
+    border: 3px solid rgb(56, 8, 42);
+    border-radius: 0px 10px 10px 0px;
+    padding: 5rem 2rem 0 5rem;
+}
+
+#second label{
+    text-transform: uppercase;
+    color: #DAD9DC;
+    font-size: 13px;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+    width: 100%;
+}
+
+#second input{
+    color:  #767373;
+    border: none;
+    border-bottom: 1px solid #767373;
+    margin-bottom: 0.8rem;
+    font-size: 18px;
+    width: 80%;
+}
+
+
+#password, #rep-password {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#second>div:nth-child(5)>input[type="submit"]{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(56, 8, 42);
+    padding: 0.5rem 0.7rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    width: 56%;
+    text-transform: capitalize;
+}
+
+#second>div:nth-child(5)>p {
+    display: inline;
+}
+
+#second>div:nth-child(5)>p>span {
+    color: rgb(56, 8, 42);
+}
+
+
+

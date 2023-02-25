@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+nav {
+    background-color: rgb(35,68,103);
+    padding: 5px 400px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

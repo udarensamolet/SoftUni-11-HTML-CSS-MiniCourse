@@ -1,0 +1,21 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+h3 {
+    color: rgb(35,68,101);
+    text-align: center;
+}
+
+.wrapper {
+    margin: auto;
+    width: 25%;
+    background-color: rgb(230,229,229);
+    padding: 20px;
+}
+
+li {
+    border-bottom: 1px solid black;
+}
+

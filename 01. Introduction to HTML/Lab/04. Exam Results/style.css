@@ -1,0 +1,23 @@
+html {
+  font-family: Open Sans, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  margin: 10px 600px;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 5px 10px;
+}
